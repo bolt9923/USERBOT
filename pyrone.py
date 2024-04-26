@@ -107,23 +107,23 @@ async def restart(_, __):
 # ADDING HANDLERS
 
 if M1:
-    M1.add_handler(MessageHandler(pyrone, filters.command(["T3RI", "L0L", "AJA", "AAJA", "START"], prefixes=None) & filters.me))
+    M1.add_handler(MessageHandler(pyrone, filters.command(["PBX1", "L0L", "AJA", "AAJA", "START"], prefixes=None) & filters.me))
     M1.add_handler(MessageHandler(restart, filters.command(["XD", "FARAR", "STOP", "FUCKED"], prefixes=None) & filters.me))
 
 if M2:
-    M2.add_handler(MessageHandler(pyrone, filters.command(["T3RI", "L0L", "AJA", "AAJA", "START"], prefixes=None) & filters.me))
+    M2.add_handler(MessageHandler(pyrone, filters.command(["PBX1", "L0L", "AJA", "AAJA", "START"], prefixes=None) & filters.me))
     M2.add_handler(MessageHandler(restart, filters.command(["XD", "FARAR", "STOP", "FUCKED"], prefixes=None) & filters.me))
 
 if M3:
-    M3.add_handler(MessageHandler(pyrone, filters.command(["T3RI", "L0L", "AJA", "AAJA", "START"], prefixes=None) & filters.me))
+    M3.add_handler(MessageHandler(pyrone, filters.command(["PBX1", "L0L", "AJA", "AAJA", "START"], prefixes=None) & filters.me))
     M3.add_handler(MessageHandler(restart, filters.command(["XD", "FARAR", "STOP", "FUCKED"], prefixes=None) & filters.me))
 
 if M4:
-    M4.add_handler(MessageHandler(pyrone, filters.command(["T3RI", "L0L", "AJA", "AAJA", "START"], prefixes=None) & filters.me))
+    M4.add_handler(MessageHandler(pyrone, filters.command(["PBX1", "L0L", "AJA", "AAJA", "START"], prefixes=None) & filters.me))
     M4.add_handler(MessageHandler(restart, filters.command(["XD", "FARAR", "STOP", "FUCKED"], prefixes=None) & filters.me))
 
 if M5:
-    M5.add_handler(MessageHandler(pyrone, filters.command(["T3RI", "L0L", "AJA", "AAJA", "START"], prefixes=None) & filters.me))
+    M5.add_handler(MessageHandler(pyrone, filters.command(["PBX1", "L0L", "AJA", "AAJA", "START"], prefixes=None) & filters.me))
     M5.add_handler(MessageHandler(restart, filters.command(["XD", "FARAR", "STOP", "FUCKED"], prefixes=None) & filters.me))
 
 
@@ -131,25 +131,25 @@ if M5:
 
 if M1:
     M1.start()
-    M1.join_chat("TheAltron")
+    M1.join_chat("chatting_2024")
 
 if M2:
     M2.start()
-    M2.join_chat("TheAltron")
+    M2.join_chat("chatting_2024")
 
 if M3:
     M3.start()
-    M3.join_chat("TheAltron")
+    M3.join_chat("chatting_2024")
 
 if M4:
     M4.start()
-    M4.join_chat("TheAltron")
+    M4.join_chat("chatting_2024")
 
 if M5:
     M5.start()
     M5.join_chat("TheAltron")
 
-print("Pyrone Started Successfully")
+print("MAA CHOD DENGE")
 
 idle()
 
